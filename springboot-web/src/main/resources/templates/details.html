@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${title}">Document</title>
+</head>
+<body style="background-color: darkseagreen;">
+    <h1 style="background-color: bisque; color: darkkhaki; "  th:text="${titulo}"></h1>
+        <ul style="background-color: darkslategrey; color: antiquewhite;"> 
+            <li th:text="${usuario.nombre}"></li>
+            <li th:text="${usuario.apellido}"></li>
+
+            <!-- otro metodo -->
+            <!-- <li th:text="${User.nombre}"></li>
+            <li th:text="${User.apellido}"></li> -->
+        </ul>
+</body>
+<div>
+    <h2 style="margin-top:100px;  font-style: italic;">
+        Profesor mi proyecto esta como prueba1 porque crei que creariamos mas proyectos durante la unidad pero no y se quedo asi, no me lo he copiado de nadie ni me lo han vendido solo nose como cambiarle ese nombre
+    </h2>
+</div>
+</html>
